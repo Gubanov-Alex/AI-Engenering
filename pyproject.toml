@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ai-orchestration"
+version = "0.1.0"
+description = "AI Orchestration with LangChain and LlamaIndex"
+authors = ["Your Name <your.email@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+openai = "^1.12.0"
+langchain = "^0.1.0"
+llama-index = "^0.9.11"
+python-dotenv = "^1.0.0"
+langchain-openai = "^0.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
